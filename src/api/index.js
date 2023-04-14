@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let baseURL = 'http://localhost:3000'
+let baseURL = 'https://music.595834303.xyz'
 /* 获取banner */
 export function getBanner(params) {
     return axios.get(`${baseURL}/banner?type=${params}`)
